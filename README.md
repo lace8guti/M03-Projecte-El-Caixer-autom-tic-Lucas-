@@ -25,8 +25,11 @@ Desenvolupar una aplicació que simuli un caixer automàtic d’un banc.
 ● Els diferents moviments que ha fet el client en un dels seus comptes podran ser
 consultats. 
 1. De cada moviment n’haurem de saber: 
+
 ○ el tipus (ingrés, transferència, ...),
+
 ○ la data,
+
 ○ quantitat diners implicats, ....
 
 ● El caixer opera únicament amb bitllets, i en disposa d’una certa quantitat de cada un d’ells. 
