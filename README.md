@@ -3,7 +3,7 @@ Desenvolupar una aplicació que simuli un caixer automàtic d’un banc.
 
 ## REQUERIMENTS FUNCIONALS
 
-### Implementar una aplicació que permeti:
+<span style="color:blue"> ### Implementar una aplicació que permeti:</span>
 
 ● Els clients del banc en el caixer podran fer login: 
 1. En iniciar l'aplicació demanarà l'identificador d'usuari i la contrasenya, si és correcte contínua l'aplicació i mostrarà el menú d'opcions; en cas contrari donarà un missatge d'error i no es pot operar. 
