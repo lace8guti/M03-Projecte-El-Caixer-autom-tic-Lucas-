@@ -27,9 +27,7 @@ consultats.
 ○. De cada moviment n’haurem de saber: 
 
 1. el tipus (ingrés, transferència, ...),
-
 2. la data,
-
 3. quantitat diners implicats, ....
 
 ● El caixer opera únicament amb bitllets, i en disposa d’una certa quantitat de cada un d’ells. 
@@ -44,25 +42,24 @@ consultats.
 
 ## REQUERIMENTS TÈCNICS
 
-● Llenguatge de programació JAVA
+1. Llenguatge de programació JAVA
 
-● Interfície gràfica en Java FX
+2. Interfície gràfica en Java FX
 
-● Estructura del programa en arquitectura MVC (Model-Vista-Controlador)
+3. Estructura del programa en arquitectura MVC (Model-Vista-Controlador)
 
-● Model estructurat en classes (S’ahurà de dibuixar un Diagrama UML de classes del
+4. Model estructurat en classes (S’ahurà de dibuixar un Diagrama UML de classes del
 Model)
 
-● Gestió d’errors i excepcions
+5. Gestió d’errors i excepcions
 
-● Codi documentat amb notació Javadoc
+6. Codi documentat amb notació Javadoc
 
-● Ús de col·leccions d’objectes ( ArrayList o equivalent) per a la gestió de les llistes
+7. Ús de col·leccions d’objectes ( ArrayList o equivalent) per a la gestió de les llistes
 d’objectes en memòria
 
-● Dades d’operativa del programa desats en fitxers de text. Podreu escollir quines
-dades voleu emmagatzemar en fitxers (mínim 2 col·leccions/ fitxers) per a
-carregar-les en memòria per inicialitzar el model que heu construit
+8. Dades d’operativa del programa desats en fitxers de text: 
+Podreu escollir quines dades voleu emmagatzemar en fitxers (mínim 2 col·leccions/ fitxers) per a carregar-les en memòria per inicialitzar el model que heu construit
 
 ## GESTIÓ DEL PROJECTE
 
