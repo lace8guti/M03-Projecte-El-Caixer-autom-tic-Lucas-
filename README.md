@@ -1,8 +1,9 @@
 # M03-Projecte-El-Caixer-autom-tic-Lucas-
 Desenvolupar una aplicació que simuli un caixer automàtic d’un banc.
 
-REQUERIMENTS FUNCIONALS
-Implementar una aplicació que permeti:
+## REQUERIMENTS FUNCIONALS
+
+### Implementar una aplicació que permeti:
 
 ● Els clients del banc en el caixer podran fer login: En iniciar l'aplicació demanarà
 l'identificador d'usuari i la contrasenya, si és correcte contínua l'aplicació i mostrarà
@@ -39,7 +40,7 @@ que s’han descrit anteriorment, que considereu que poden ser d’utilitat.
 
 ● L’operativa del caixer s’haurà d’implementar a través d’una interfície gràfica.
 
-REQUERIMENTS TÈCNICS
+## REQUERIMENTS TÈCNICS
 
 ● Llenguatge de programació JAVA
 
@@ -61,18 +62,18 @@ d’objectes en memòria
 dades voleu emmagatzemar en fitxers (mínim 2 col·leccions/ fitxers) per a
 carregar-les en memòria per inicialitzar el model que heu construit
 
-GESTIÓ DEL PROJECTE
+## GESTIÓ DEL PROJECTE
 
 Plataforma Github per compartir codi i documentar el projecte. Es farà seguiment
 dels commits del projecte.
 
-DATA LLIURAMENT
+## DATA LLIURAMENT
 
 ● 05 maig del 2023
 
 ● Exposicions del projecte – 08, 09, ... de maig del 2023
 
-MÈTODE LLIURAMENT I FORMAT
+## MÈTODE LLIURAMENT I FORMAT
 
 ● Link Github codi font en una tasca Moodle
 
@@ -81,7 +82,7 @@ de classes, descripció de les funcionalitats implementades
 
 ● Presentació del projecte
 
-AVALUACIÓ
+## AVALUACIÓ
 
 ● Assistència a un 80% sessions de classe (dilluns i dimecres) . No s’avaluarà el
 projecte si es supera aquest %.
