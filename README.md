@@ -14,13 +14,13 @@ Desenvolupar una aplicació que simuli un caixer automàtic d’un banc.
 2. Els comptes d’estalvis tenen un tipus d’interès més elevat. Els comptes corrents podran tenir targetes associades.
 
 ● El caixer permetrà com a mínim fer les següents operacions:
-○ Consultar el saldo del client (per compte i el total dels seus comptes)
-○ retirar diners d’un compte del client,
-○ ingressar diners a un compte
-○ fer transferència de diners, només entre comptes corrents
-○ canviar la clau d’accés al caixer,
-○ fer logout,
-○ ...
+1. Consultar el saldo del client (per compte i el total dels seus comptes)
+2. retirar diners d’un compte del client,
+3. ingressar diners a un compte
+4. fer transferència de diners, només entre comptes corrents
+5. canviar la clau d’accés al caixer,
+6. fer logout,
+7. ...
 
 ● Els diferents moviments que ha fet el client en un dels seus comptes podran ser
 consultats. 
