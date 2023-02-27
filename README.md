@@ -24,7 +24,7 @@ Desenvolupar una aplicació que simuli un caixer automàtic d’un banc.
 
 ● Els diferents moviments que ha fet el client en un dels seus comptes podran ser
 consultats. 
-○. De cada moviment n’haurem de saber: 
+* De cada moviment n’haurem de saber: 
 
 1. el tipus (ingrés, transferència, ...),
 2. la data,
