@@ -5,14 +5,13 @@ Desenvolupar una aplicació que simuli un caixer automàtic d’un banc.
 
 ### Implementar una aplicació que permeti:
 
-● Els clients del banc en el caixer podran fer login: En iniciar l'aplicació demanarà
-l'identificador d'usuari i la contrasenya, si és correcte contínua l'aplicació i mostrarà
-el menú d'opcions; en cas contrari donarà un missatge d'error i no es pot operar. Si
-l'usuari no encerta el password un número determinat d'intents l'usuari es bloqueja.
+● Els clients del banc en el caixer podran fer login: 
+1. En iniciar l'aplicació demanarà l'identificador d'usuari i la contrasenya, si és correcte contínua l'aplicació i mostrarà el menú d'opcions; en cas contrari donarà un missatge d'error i no es pot operar. 
+2. Si l'usuari no encerta el password un número determinat d'intents l'usuari es bloqueja.
 
-● Els clients dels banc disposaran d’un o diversos comptes. Els comptes podran ser de
-dos tipus: comptes corrents o comptes d’estalvis. Els comptes d’estalvis tenen un
-tipus d’interès més elevat. Els comptes corrents podran tenir targetes associades.
+● Els clients dels banc disposaran d’un o diversos comptes. 
+1. Els comptes podran ser de dos tipus: comptes corrents o comptes d’estalvis. 
+2. Els comptes d’estalvis tenen un tipus d’interès més elevat. Els comptes corrents podran tenir targetes associades.
 
 ● El caixer permetrà com a mínim fer les següents operacions:
 ○ Consultar el saldo del client (per compte i el total dels seus comptes)
@@ -24,19 +23,19 @@ tipus d’interès més elevat. Els comptes corrents podran tenir targetes assoc
 ○ ...
 
 ● Els diferents moviments que ha fet el client en un dels seus comptes podran ser
-consultats. De cada moviment n’haurem de saber: el tipus (ingrés, transferència, ...)
-, la data, quantitat diners implicats, ....
+consultats. 
+1. De cada moviment n’haurem de saber: 
+# el tipus (ingrés, transferència, ...),
+# la data,
+# quantitat diners implicats, ....
 
-● El caixer opera únicament amb bitllets, i en disposa d’una certa quantitat de cada un
-d’ells. Les operacions d’extracció i d'ingrés afecten a la quantitat de diners
-emmagatzemada en el caixer. Quan es fan operacions d’extracció s’ha de
-comprovar que l’operació sigui possible segons els bitllets disponibles. S’ha
-d’informar al client de les quantitats de bitllets lliurades en l’operació. Quan es fa un
-ingrès podem utilitzar un teclat amb botons amb les diferents quantitats per indicar la
-quantitat dipositada.
+● El caixer opera únicament amb bitllets, i en disposa d’una certa quantitat de cada un d’ells. 
+1. Les operacions d’extracció i d'ingrés afecten a la quantitat de diners emmagatzemada en el caixer. 
+2. Quan es fan operacions d’extracció s’ha de comprovar que l’operació sigui possible segons els bitllets disponibles. 
+3. S’ha d’informar al client de les quantitats de bitllets lliurades en l’operació. 
+4. Quan es fa un ingrès podem utilitzar un teclat amb botons amb les diferents quantitats per indicar la quantitat dipositada.
 
-● S’haurà d’implementar com a mínim altres 3 funcionalitat al caixer, diferent a les
-que s’han descrit anteriorment, que considereu que poden ser d’utilitat.
+● S’haurà d’implementar com a mínim altres 3 funcionalitat al caixer, diferent a les que s’han descrit anteriorment, que considereu que poden ser d’utilitat.
 
 ● L’operativa del caixer s’haurà d’implementar a través d’una interfície gràfica.
 
