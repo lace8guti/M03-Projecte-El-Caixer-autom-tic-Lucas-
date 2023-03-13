@@ -127,3 +127,6 @@ previstes.
 ![CompteEstalvi](https://github.com/lace8guti/M03-Projecte-El-Caixer-autom-tic-Lucas-/blob/main/CompteEstalvi.png?raw=true)
 
 
+### Diagrama UML 1
+
+![ Diagrama UML 1 ](https://github.com/lace8guti/M03-Projecte-El-Caixer-autom-tic-Lucas-/blob/main/DiagramaUML1.png?raw=true)
