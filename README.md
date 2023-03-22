@@ -93,3 +93,40 @@ previstes.
 ● Tots els projectes no originals o còpies seran qualificats amb un 0.
 
 ● Es farà ús d’una rúbrica d’avaluació que podreu consultar al moodle.
+
+## InterficieGrafica-Projecte El Caixer automàtic
+
+#### Caixer1
+![Caixer1](https://github.com/lace8guti/M03-Projecte-El-Caixer-autom-tic-Lucas-/blob/main/Caixer1.png?raw=true)
+
+#### Bloqueig
+![Bloqueig](https://github.com/lace8guti/M03-Projecte-El-Caixer-autom-tic-Lucas-/blob/main/Bloqueig.png?raw=true)
+
+#### MenúBase
+![MenúBase](https://github.com/lace8guti/M03-Projecte-El-Caixer-autom-tic-Lucas-/blob/main/MenuBase.png?raw=true)
+
+#### MenúBase2
+![MenúBase2](https://github.com/lace8guti/M03-Projecte-El-Caixer-autom-tic-Lucas-/blob/main/MenuBase2.png?raw=true)
+
+#### CompteCorrent
+![CompteCorrent](https://github.com/lace8guti/M03-Projecte-El-Caixer-autom-tic-Lucas-/blob/main/CompteCorrent.png?raw=true)
+
+#### retirar diners
+![retirar diners](https://github.com/lace8guti/M03-Projecte-El-Caixer-autom-tic-Lucas-/blob/main/RetirarDiners.png?raw=true)
+
+#### ingressar diners
+![ingressar diners](https://github.com/lace8guti/M03-Projecte-El-Caixer-autom-tic-Lucas-/blob/main/IngressarDiners.png?raw=true)
+
+#### fer transferència de diners
+![fer transferència de diners](https://github.com/lace8guti/M03-Projecte-El-Caixer-autom-tic-Lucas-/blob/main/FerTransferencia.png?raw=true)
+
+#### TargetesAssociades
+![TargetesAssociades](https://github.com/lace8guti/M03-Projecte-El-Caixer-autom-tic-Lucas-/blob/main/TargetesAssociades.png?raw=true)
+
+#### CompteEstalvi
+![CompteEstalvi](https://github.com/lace8guti/M03-Projecte-El-Caixer-autom-tic-Lucas-/blob/main/CompteEstalvi.png?raw=true)
+
+
+### Diagrama UML 1
+
+![ Diagrama UML 1 ](https://github.com/lace8guti/M03-Projecte-El-Caixer-autom-tic-Lucas-/blob/main/DiagramaUML1.png?raw=true)
