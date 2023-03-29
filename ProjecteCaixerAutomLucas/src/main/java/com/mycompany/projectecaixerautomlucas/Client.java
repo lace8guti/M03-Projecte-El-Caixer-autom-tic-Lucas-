@@ -8,7 +8,7 @@ package com.mycompany.projectecaixerautomlucas;
  *
  * @author alumne
  */
-public class Usuari {
+public class Client {
     public String nomUsuari;
     public String passUsuari;
 
@@ -27,6 +27,7 @@ public class Usuari {
     public void setPassUsuari(String passUsuari) {
         this.passUsuari = passUsuari;
     }
+    
     
     
 }

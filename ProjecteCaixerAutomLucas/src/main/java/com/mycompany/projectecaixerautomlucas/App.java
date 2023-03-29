@@ -16,14 +16,14 @@ public class App extends Application {
     private static Scene scene;
     
     static String nom;
-    static Usuari usuari;
+    static Client usuari;
     
     @Override
     public void start(Stage stage) throws IOException {
         nom="Ana";
         
         
-        usuari = new Usuari();
+        usuari = new Client();
         usuari.setNomUsuari("lucas");
         usuari.setPassUsuari("hola");
         

@@ -13,6 +13,11 @@ import javafx.scene.text.Text;
 
 public class PrimaryController {
     
+    /*TODO
+    * 
+    * 1. Gestionar los usuarios con nombresUsuario y contraseñasUsuario
+    * 2. Gestionar el tema de los intentos con un contador y un timmer de timeout de 1 hora.
+    */
     
     @FXML
     TextField textfieldUser;

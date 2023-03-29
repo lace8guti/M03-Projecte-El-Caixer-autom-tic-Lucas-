@@ -1,6 +1,7 @@
 
 package com.mycompany.projectecaixerautomlucas;
 import java.io.IOException;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
@@ -25,50 +26,30 @@ public class PentaryController {
     @FXML
     TextField textfieldInfo;
     
-    boolean CC=false;
-    boolean CE=false;
     
+    
+    //función para volver al menú
     @FXML
     private void switchToSecondary() throws IOException {
-        CC=false;
-        CE=false;
+        
         App.setRoot("secondary");
     }
     
-    @FXML
-    private void settingCCTrue(){
-        CE=false;
-        CC=true;
-    }
+    //TODO
+    //Hay que optimizar el texto que se muestra sobre cada uno de los tipos de cuenta
     
+    //función que muestra la información sobre las CC o sobre las CE, según el botón que se pulse
     @FXML
-    private void settingCETrue(){
-        CC=false;
-        CE=true;
-    }
-    
-    @FXML
-    private void showInfo(){
-        
-        
-        
-        String infoCC="Informació relacionada amb els Comptes Corrents";
-        String infoCE="Informació relacionada amb els Comptes d'Estalvis";
+    private void handleButtonInfo(ActionEvent event) {
         try{
-            
-            
-            if(CC==true){
-                textfieldInfo.setText(infoCC.toString());
+            if (event.getSource() == buttonCC) {
+                textfieldInfo.setText("Informació relacionada amb els Comptes Corrents");
+            } else if (event.getSource() == buttonCE) {
+                textfieldInfo.setText("Informació relacionada amb els Comptes d'Estalvis");
             }
-            else if(CE==true){
-                textfieldInfo.setText(infoCE.toString());
-            }else{
-                //no muestres nada
-            }
-            
         }catch(Exception e){
-            System.out.println("L'execució de mostrar informació sobre comptes és incorrecte");
+            System.err.println("Error: " + e.getMessage());
         }
     }
-    
+
 }
