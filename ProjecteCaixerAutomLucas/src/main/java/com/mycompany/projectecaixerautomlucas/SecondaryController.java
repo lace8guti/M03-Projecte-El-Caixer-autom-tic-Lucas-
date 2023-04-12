@@ -10,11 +10,12 @@ import javafx.scene.control.Button;
 */
 
 public class SecondaryController {
-    
+    /*
     @FXML
     void initialize(){
          System.out.println(App.nom);
     }
+    */
     
     @FXML
     Button buttonLogout;

@@ -15,17 +15,17 @@ public class App extends Application {
 
     private static Scene scene;
     
-    static String nom;
-    static Client usuari;
+    //static String nom;
+    static Client client;
     
     @Override
     public void start(Stage stage) throws IOException {
-        nom="Ana";
+        //nom="Ana";
         
         
-        usuari = new Client();
-        usuari.setNomUsuari("lucas");
-        usuari.setPassUsuari("hola");
+        //client = new Client();
+        //usuari.setNomUsuari("lucas");
+        //usuari.setPassUsuari("hola");
         
         
         scene = new Scene(loadFXML("primary"), 640, 480);
