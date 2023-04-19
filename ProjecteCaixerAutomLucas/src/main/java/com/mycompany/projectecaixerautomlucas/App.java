@@ -18,6 +18,8 @@ public class App extends Application {
     //static String nom;
     static Client client;
     
+    
+    
     @Override
     public void start(Stage stage) throws IOException {
         //nom="Ana";
@@ -27,7 +29,11 @@ public class App extends Application {
         //usuari.setNomUsuari("lucas");
         //usuari.setPassUsuari("hola");
         
+        Banc banc = null;
+        banc.afegirClient("Lucas", "Acevedo", "lucas123", "contraseña_de_lucas");
+
         
+                
         scene = new Scene(loadFXML("primary"), 640, 480);
         stage.setScene(scene);
         stage.show();

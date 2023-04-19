@@ -1,6 +1,7 @@
 package com.mycompany.projectecaixerautomlucas;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
@@ -38,6 +39,10 @@ public class PrimaryController {
         App.nom="Carles";
     }
     */
+    
+    Banc banc = new Banc(); // asumiendo que "clientes" es una ArrayList de objetos Client
+    ArrayList<Client> clients = banc.getClientes();
+
     
     @FXML
     public void iniciarSessio(){
